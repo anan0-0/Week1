@@ -14,4 +14,5 @@ for i in range(len(Num)):
     grp2=Num[i]%24
     left=left+grp2
 print("Full group=%d"%full)
-print("Leftover group=%d"%(left//Lg))
+print("Leftover group=%d"%(left//24))
+print("Students in Leftover group=%d"%left)
